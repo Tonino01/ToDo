@@ -52,7 +52,7 @@ function addItem(){
     }
     todoList.push(newTodo);
 
-    
+    disegnaElenco();
 
 
 }
@@ -111,6 +111,7 @@ function elemento(item){
     elementoDiv.append(buttondown);
     elementoDiv.append(buttonEdit);
     elementoDiv.append(buttonDelete);
+    
 
     listaToDo.append(elementoDiv);
 }
